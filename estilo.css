@@ -1,0 +1,104 @@
+html {
+    cursor: url(imagens/telescopio.png) 10 10, auto;
+}
+
+body {
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.planeta1 {
+    width: 50px;
+    height: 50px;
+}
+
+.planeta2 {
+    width: 70px;
+    height: 70px;
+}
+
+.planeta3 {
+    width: 90px;
+    height: 90px;
+}
+
+.LadoA {
+    transform: scaleX(1);
+}
+
+.LadoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px #e3f3fc;
+    background-color: #e3f3fc;
+    opacity: 0.7;
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.BotaoReiniciar {
+    background-color: #364763;
+    border-radius: 18px;
+    opacity: 0.9;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px #4a4a57;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.BotaoReiniciar:hover {
+    background-color: #3ad661;
+}
+
+.BotaoReiniciar:active {
+    background-color: #208a3a;
+    box-shadow: 0 5px #0d4710;
+    transform: translateY(4px);
+}
+
+.BotaoIniciar {
+    background-color: #eb1730;
+    border-radius: 18px;
+    opacity: 0.9;
+    width: 250px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px #540306;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.BotaoIniciar:hover {
+    background-color: #f56e94;
+}
+
+.BotaoIniciar:active {
+    background-color: #c70a59;
+    box-shadow: 0 5px #8a073e;
+    transform: translateY(4px);
+}
