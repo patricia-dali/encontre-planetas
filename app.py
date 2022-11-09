@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import image
 
 app = Flask(__name__)
 
