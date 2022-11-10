@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/App.html?<nivel>")
+@app.route("/App.html")
 def inicial(nivel):
     return render_template("App.html",nivel=nivel)
 
