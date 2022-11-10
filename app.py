@@ -6,15 +6,15 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/App")
+@app.route("/App.html?")
 def inicial():
     return render_template("App.html")
 
-@app.route("/vitoria")
+@app.route("/vitoria.html")
 def vitoria():
     return render_template("vitoria.html")
 
-@app.route("/fim_de_jogo")
+@app.route("/fim_de_jogo.html")
 def fim_de_jogo():
     return render_template("fim_de_jogo.html")
 
