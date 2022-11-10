@@ -6,9 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/App.html?")
-def inicial():
-    return render_template("App.html")
+@app.route("/App.html?<nivel>")
+def inicial(nivel):
+    return render_template("App.html",nivel=nivel)
 
 @app.route("/vitoria.html")
 def vitoria():
