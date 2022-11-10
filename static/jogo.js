@@ -54,7 +54,7 @@ if(nivel === 'Normal'){
             window.location.href = 'fim_de_jogo.html'
         } else{
 
-    document.getElementById('v' + vidas).src = "imagens/coracao_vazio.png"
+    document.getElementById('v' + vidas).src = "static/imagens/coracao_vazio.png"
     vidas--
 }
 }
@@ -102,16 +102,16 @@ if(nivel === 'Normal'){
 
     switch(classe) {
         case 0: 
-            return 'imagens/jupeter.png'
+            return 'static/imagens/jupeter.png'
 
         case 1: 
-            return 'imagens/Saturno.png'
+            return 'static/imagens/Saturno.png'
 
         case 2: 
-            return 'imagens/urano.png'
+            return 'static/imagens/urano.png'
 
         case 3: 
-            return 'imagens/netuno.png'
+            return 'static/imagens/netuno.png'
     }
         }
 
