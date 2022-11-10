@@ -6,8 +6,11 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/App.html")
-def inicial(nivel):
+@app.route("/App.html", methods=['GET'])
+def inicial():
+    args = request.args
+    print(args.get("nivel"))
+    nivel = args.get("nivel")
     return render_template("App.html",nivel=nivel)
 
 @app.route("/vitoria.html")
