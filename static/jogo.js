@@ -15,12 +15,13 @@ if(nivel === 'Normal'){
     tempo = 10
 } else if(nivel === 'Dificil'){
     //1000
-    CriaPlanetaTempo = 1250
+    CriaPlanetaTempo = 1100
     tempo = 20
 } else if(nivel === 'Tita'){
     //650
-    CriaPlanetaTempo = 750
+    CriaPlanetaTempo = 350
     tempo = 40
+    vidas = 5
 }
 
 
